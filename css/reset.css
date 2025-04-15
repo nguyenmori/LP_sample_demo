@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+dl,
+dt,
+dd,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+  letter-spacing: 0.1em;
+  /*デフォルトの文字色、font-familyを予め当てておく*/
+  color: #1f1e00;
+  font-size: 1.6rem;
+  font-family: "Zen Maru Gothic", serif, "ヒラギノ丸ゴ Pro W4",
+    "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3",
+    "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO";
+  overflow-wrap: anywhere; /* 収まらない場合に折り返す */
+  word-break: normal; /* 単語の分割はデフォルトに依存 */
+  line-break: strict;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+main {
+  /* max-width: 1040px;
+  width: 100%; */
+  max-width: 785px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+a {
+  /*下線を消す*/
+  text-decoration: none;
+  /*色を消す*/
+  color: inherit;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+ul {
+  /*左の「・」を消す*/
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+  border: none;
+  width: fit-content;
+}
+
+.FV {
+  max-width: 785px;
+  width: 100%;
+}
+
+h1 {
+  position: absolute;
+  font-size: 80px;
+  color: rgba(255, 255, 255, 0);
+}
+
+section {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
