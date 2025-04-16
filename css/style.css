@@ -767,8 +767,13 @@ dt {
   cursor: pointer;
 }
 
+/* Chrome/Firefox/Edge */
 summary {
 	list-style: none;
+}
+/* Safari/Opera */
+summary::-webkit-details-marker {
+	display: none;
 }
 
 .faq_accordion summary::before {
