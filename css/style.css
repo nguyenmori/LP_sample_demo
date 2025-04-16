@@ -1207,7 +1207,7 @@ dt {
 
 @media screen and (max-width: 430px) {
   .FV__btn, .CTA__btn {
-    right:0rem;
+    right:2rem;
 }
 
 .features__famm-container__item {
@@ -1227,7 +1227,7 @@ dt {
   .FV__btn, .CTA__btn {
     width: 300px;
     height: 54px;
-    right:3rem;
+    right:5rem;
     font-size: 1.3rem;
 }
 
