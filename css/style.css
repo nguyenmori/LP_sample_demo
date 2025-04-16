@@ -767,9 +767,8 @@ dt {
   cursor: pointer;
 }
 
-.faq_accordion summary::marker {
-  display: block;
-  content: "";
+summary {
+	list-style: none;
 }
 
 .faq_accordion summary::before {
