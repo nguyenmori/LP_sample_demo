@@ -307,6 +307,7 @@ h3 {
   font-family: "Walter Turncoat", cursive;
   color: rgba(255, 170, 68, 0.2);
   content: "01";
+  z-index: -1;
 }
 
 .point03-title2::before {
@@ -890,8 +891,8 @@ dt {
 }
 
 @media screen and (max-width: 800px) {
-  main {
-    padding: 0 2rem;
+  .header-logo a img{
+    width: 70%;
   }
 
   .pc-br {
@@ -962,6 +963,11 @@ dt {
 
   .CTA__btn {
     bottom: -12rem;
+  }
+
+
+  h2{
+    font-size: 2.8rem;
   }
 
   .trouble__answer {
@@ -1183,7 +1189,7 @@ dt {
 
 .illust {
   right: -12%;
-  width: 36%;
+  width: 34%;
 }
 
 .date-box {
